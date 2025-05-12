@@ -6,6 +6,7 @@ This repository contains two new market-level stock datasets for the **London St
 
 ## 📁 Directory Structure
 
+<pre lang="markdown"> 
 ├── LSE/
 │ ├── data/
 │ │ ├── data_closing_price.csv
@@ -34,6 +35,7 @@ This repository contains two new market-level stock datasets for the **London St
 │ │ └── industry_adjacency.csv
 │ ├── dates_index.csv
 │ └── tickers.csv
+</pre>
 
 
 ---
