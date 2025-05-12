@@ -46,7 +46,7 @@ Each market directory (LSE and TSE) includes:
 
 - `data/`: Contains multiple CSV files with time-series data for stock prices and moving averages.  
   - `data_closing_price.csv`: Daily closing prices for all selected stocks.
-  - `price_data.csv`: Additional price information.
+  - `price_data.csv`: Raw price information.
   - `data_ma_X.csv`: Moving averages with different periods (5, 10, 20, 30).
   - `gt.csv`: Ground truth data for the target stock prediction task.
 - `graph_data/`: Contains relationship graphs between stocks.
@@ -89,7 +89,7 @@ The `data/` folder contains historical stock data with the following columns:
 | 2013-01-02 | 101.3  | 206.2  | ... | 151.1  |
 
 - `Timestamp`: Date of the trading day.
-- `Stock1, Stock2, ..., StockN`: The closing price of each stock for that date.
+- `Stock1, Stock2, ..., StockN`: The closing price(or X attribute) of each stock for that date.
 
 ---
 
